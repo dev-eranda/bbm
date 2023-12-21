@@ -1,0 +1,413 @@
+/*css varibles*/
+
+:root {
+  --opensans: 'Open Sans', sans-serif;
+  /*colours*/
+  --red: #D13B3B;
+  --blue: #4867AA;
+  --darkgray: #333;
+  --white: #fff;
+  --darkgraynav: #1A1A1A;
+}
+
+body {
+  font-family: var(--opensans);
+}
+
+.dashboard-wrap {
+  position: relative;
+  display: block;
+  overflow-x: hidden;
+}
+
+.dashboard-wrap .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navigation-wrap {
+  position: relative;
+  display: block;
+  float: left;
+  width: 20%;
+  text-align: center;
+  min-height: 100%;
+  height: 100vh;
+  background: #070707;
+}
+.site-content-wrap {
+  position: relative;
+  display: block;
+  float: left;
+  width: 80%;
+  min-height: 100%;
+  height: 100vh;
+}
+
+.navigation {
+  position: relative;
+  display: flex;
+  text-align: left;
+  margin: 33px auto 0 auto;
+  justify-content: center;
+}
+
+.navigation-wrap .logo-white {
+  position: relative;
+  display: block;
+  max-width: 135px;
+  margin: 45px auto 0 auto;
+}
+
+.navigation .flex-column.nav {
+  max-width: 220px;
+  width: 100%;
+}
+
+.nav-item a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .nav-item {
+  border-radius: 7px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.navigation .active.nav-item {
+  background: var(--darkgraynav) 0% 0% no-repeat padding-box;
+}
+
+.navigation .nav-item:hover {
+  background:  var(--darkgraynav)  0% 0% no-repeat padding-box;
+}
+
+.navigation .nav-item:hover .sprite {
+  opacity: 1;
+}
+.mobile-logo, .mobilemenu {
+  display: none;
+}
+
+.sprite {
+  background-image: url(../../assets/images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.sprite-bag {
+  width: 18px;
+  height: 18px;
+  background-position: -10px -10px;
+}
+
+.sprite-calendar {
+  width: 17px;
+  height: 17px;
+  background-position: -10px -48px;
+}
+
+.sprite-dashboard_1_ {
+  width: 18px;
+  height: 14px;
+  background-position: -10px -85px;
+}
+
+.sprite-dumbell {
+  width: 22px;
+  height: 15px;
+  background-position: -10px -119px;
+}
+
+.sprite-logout-1 {
+  width: 15px;
+  height: 15px;
+  background-position: -10px -154px;
+}
+
+.sprite-logout-dark {
+  width: 13px;
+  height: 13px;
+  background-position: -10px -189px;
+}
+
+.sprite-meal {
+  width: 23px;
+  height: 17px;
+  background-position: -10px -222px;
+}
+
+.sprite-renew {
+  width: 22px;
+  height: 20px;
+  background-position: -10px -259px;
+}
+
+.sprite-user {
+  width: 17px;
+  height: 17px;
+  background-position: -10px -299px;
+}
+.sprite-tick {
+  width: 33px;
+  height: 33px;
+  background-position: -4px -332px;
+  opacity: 1;
+}
+
+.content-wrap {
+  position: relative;
+  display: block;
+  padding: 50px 25px;
+  background: #EEF1F3;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.content-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.t-date-wrap h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #464B4E;
+}
+
+.t-date-wrap h4 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: -0.33px;
+}
+
+.profilename {
+  font-weight: 700;
+}
+
+.profile-col {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.profile-image {
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  border-radius: 9px;
+  margin-right: 16px;
+}
+.userinfo {
+  position: relative;
+  display: block;
+}
+.userinfo h2{
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.15px;
+  color: #1C2830;
+}
+.userinfo h3{
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.11px;
+  color: #898C8E;
+}
+.logout-btn {
+  position: relative;
+  display: block;
+  background: #E4E4E4 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  padding: 12px;
+  margin-left: 27px;
+  transition: 0.5s;
+}
+.logout-btn:hover {
+  background: #c1c1c1 0% 0% no-repeat padding-box;
+}
+
+.the-contents {
+  position: relative;
+  display: block;
+}
+
+.summery-wrap {
+  position: relative;
+  display: block;
+  margin-top: 40px;
+}
+.summery-wrap h6 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #464B4E;
+  padding: 0 15px;
+  margin-bottom: 18px;
+}
+.workout-box {
+  background: var(--white) 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  padding: 18px 23px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.workout-box h5 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.13px;
+  color: #464B4E;
+  margin-bottom: 18px;
+  
+}
+.workout-box h6{
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.31px;
+  color: #D13B3B;
+  padding: 0;
+}
+.s-time,.w-summary{
+  flex-direction: column;
+}
+.w-summary .workout-chart {
+  height: 200px;
+}
+.workout-box.water-intake, .workout-box.breathing {
+  width: 47%;
+  float: left;
+  text-align: center;
+  justify-content: center;
+}
+.water-intake {
+  margin-right: 20px;
+}
+
+.workout-box.water-intake h6, .workout-box.breathing h6 {
+  font-size: 54px;
+  margin-bottom: 0;
+}
+span.box-subtitle {
+  font-size: 12px;
+}
+.workout-col {
+  position: relative;
+  display: block;
+  background: #F6F6F6;
+  padding: 0 25px;
+  height: 100%;
+}
+.workout-col h2 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.11px;
+  color: #464B4E;
+  text-align: center;
+  padding: 55px 0;
+}
+.workout-step-wrap {
+  position: relative;
+  display: block;
+  margin-top: 27px;
+}
+.today-workout, .today-workout-steps {
+  position: relative;
+  display: block;
+  background: #fff;
+  padding: 15px 14px;
+  margin-bottom: 10px;
+}
+
+.today-workout h3, .today-workout-steps h3 {
+  font-size: 9px;
+  font-weight: 600;
+  color: #464B4E;
+  text-transform: uppercase;
+}
+.today-workout:after, .today-workout-steps:after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  display: block;
+  top: 44%;
+  right: 17px;
+  border-bottom: 2px solid #33333342;
+  border-right: 2px solid #33333342;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+}
+.today-workout-steps.completed:after{
+  display: none;
+}
+
+
+.moment-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.mtime {
+  font-size: 8px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #8893C8 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  padding: 2px 10px;
+  margin-right: 6px;
+}
+.moment-wrap h5{
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.21px;
+  color: #115C8A;
+  margin-bottom: 0;
+
+}
+
+.today-workout-steps.completed {
+  background: #208843;
+  padding-bottom: 10px;
+}
+
+.today-workout-steps:hover:after, .today-workout:hover:after {
+  right: 25px !important;
+}
+
+.today-workout-steps.completed h3, .completed .moment-wrap h5 {
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.completed .moment-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.complete-box {
+  position: relative;
+  display: block;
+  background: #579455;
+  width: 33px;
+  height: 33px;
+  top: -7px;
+}
+
+
+
+

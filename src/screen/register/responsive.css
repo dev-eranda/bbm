@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1200px) {
+
+
+
+}
+
+@media only screen and (max-width:800px) {
+
+  .hm-col2 {
+    padding: 0 20px 70px 20px;
+  }
+  .login-fb {
+    background-position: 15% center;  
+  }
+
+  .no-accont {
+    padding: 0 35px;
+  }
+  .hm-col2 {
+    background-position: 121% 1%;
+  }
+  .hm-register .hm-col2 {
+    height: 100vh;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .hm-col1 {  
+    height: 34vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 54px;
+}
+.hm-col-wrap {
+ 
+  margin-right: auto;
+  margin-left: auto;  
+  text-align: center;
+  width: 100%;
+}
+.hmlogo {  
+  margin-bottom: 33px;
+  text-align: center;
+  padding-top: 50px;
+}
+.hm-col2 {
+  background-position: 121% 1%;
+  background-image: none;
+  height: auto;
+  margin: 30px 0 0 0;
+}
+.hm-register .hm-col2 {
+  padding: 0 20px 70px 20px;
+}
+
+.login-form-wrap {
+  position: relative;
+  display: block;
+  margin-top: 0;
+}
+.login-form-wrap h2 {
+  display: none;
+}
+
+.hm-register .hm-col2 {
+  height: 100vh;
+  background: none;
+}
+.register-form-wrap {
+   padding-top: 0;
+}
+
+.hm-register .hm-col1 {
+   height: 35vh;
+}
+
+.hm-col-wrap {
+  position: relative;
+  display: block;
+  margin-right: 0;
+  margin-bottom: 14px;
+  width: 100%;
+}
+.l-form {
+  max-width: 100%;
+}
+  
+}
+@media only screen and (max-width: 360px) {
+
+
+  
+}
