@@ -1,11 +1,11 @@
 import React, { Fragment } from "react"
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../../assets/images/logo-white.png';
 import { Button, Container, Row, Col, Form, FormControl, FormCheck } from 'react-bootstrap';
 
 
-//import 'common/layouts/header/style.css';
-// import './style.css';
+// import 'common/layouts/header/style.css';
+import './style.css';
 import './responsive.css';
 
 function View() {
@@ -17,10 +17,10 @@ function View() {
             <div className="hm-col1">
               <div className="hm-col-wrap">
                 <div className="hmlogo">
-                  {/* <img src={logo} className="logo-white" alt="logo" /> */}
+                  <img src={logo} className="logo-white" alt="logo" />
                 </div>
                 <div className="logoing-title">
-                  {/* <h1>Members Login</h1> */}
+                  <h1>Members Login</h1>
                 </div>
               </div>
             </div>
