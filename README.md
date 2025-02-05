@@ -3,17 +3,16 @@
 <hr />
 
 ## Project Background and Overview  
-This project is focused on building a Spring Boot-based microservice architecture for an e-commerce platform. It integrates Apache Kafka to manage asynchronous communication between different services, ensuring scalability and reliability. The project provides a robust foundation for developing high-performance e-commerce systems, emphasizing modular design, secure transaction handling, and seamless service communication. 
+This self-study project is a React.js application designed for workout enthusiasts who want an efficient way to track their fitness journey. The app provides users with tools to log workouts, set fitness goals, and monitor progress over time. With a user-friendly interface, the project aims to enhance the workout experience by offering intuitive tracking and visualization features.
 <hr />
 
 ## Project Goals  
 The primary objectives of this application include:  
 
-1. Design a scalable and maintainable microservice architecture using Spring Boot.
-2. Integrate Apache Kafka to manage real-time, event-driven communication between services.
-3. Implement secure authentication and authorization mechanisms for sensitive user data and transactions.
-4. Ensure high availability and fault tolerance with a distributed service-oriented approach.
-5. Provide efficient and reliable CRUD operations for managing products, users, and orders within the platform.
+1. Enable users to log workouts, set goals, and track progress effortlessly.
+2. Ensure a seamless and engaging user experience with a clean UI.
+3. Implement data visualization for progress tracking and goal achievement.
+4. Enhance React.js development skills through hands-on learning and real-world application.
 <hr />
 
 ## Technical Details  
