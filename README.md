@@ -19,13 +19,13 @@ The primary objectives of this application include:
 ## Technical Details  
 Core technologies used:  
 
-- **React.js, JavaScript, Bootstrap**  
+- **ReactJS, JavaScript, Bootstrap**  
 <hr />
 
 ## Installation  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/dev-eranda/nodejs-crud-auth-api
+   git clone https://github.com/dev-eranda/bbm.git
    
 2. Install dependencies:
    ```sh
