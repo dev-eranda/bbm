@@ -4,16 +4,16 @@
 <hr />
 
 ## Project Background and Overview  
-This self-study project is a React.js application designed for workout enthusiasts who want an efficient way to track their fitness journey. The app provides users with tools to log workouts, set fitness goals, and monitor progress over time. With a user-friendly interface, the project aims to enhance the workout experience by offering intuitive tracking and visualization features.
+This repository contains a ReactJS app for workout enthusiasts to track their fitness journey. It allows users to log workouts, set goals, and monitor progress, with an easy-to-use interface for intuitive tracking and visualization
 <hr />
 
 ## Project Goals  
 The primary objectives of this application include:  
 
-1. Enable users to log workouts, set goals, and track progress effortlessly.
-2. Ensure a seamless and engaging user experience with a clean UI.
-3. Implement data visualization for progress tracking and goal achievement.
-4. Enhance React.js development skills through hands-on learning and real-world application.
+1. Enable users to log workouts, set goals, and track progress effortlessly
+2. Ensure a seamless and engaging user experience with a clean UI
+3. Implement data visualization for progress tracking and goal achievement
+4. Enhance React.js development skills through hands-on learning and real-world application
 <hr />
 
 ## Technical Details  
